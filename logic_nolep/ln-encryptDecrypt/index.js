@@ -4,7 +4,7 @@ const { scheduleTask } = require("./scheduleApp");
 console.log("--- Testing cryptoApp ---");
 
 // Test Case 1
-const encryptedText = encrypt("Hello, World!", "mysecretkey");
+const encryptedText = encrypt("RezaHaffafi", "mysecretkey");
 console.log("Encrypted Text:", encryptedText);
 // Output: Encrypted: ... (ciphertext in hexadecimal)
 
